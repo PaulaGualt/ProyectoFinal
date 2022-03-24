@@ -1,0 +1,251 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombreProd": "Niacinamida 10% + Zinc 1%",
+      "marca": "The Ordinary",
+      "tamaño": "30ml",
+      "precio": 48000,
+      "img": "../images/TONIACINAMIDA10.png",
+      "descripcion": "Indicada para calmar las rojeces, regular la producción de grasa y mejorar la función barrera de la piel, es despigmentante y antioxidante."
+    },
+    {
+      "id": 2,
+      "nombreProd": "Ácido Ascórbico 8% + Alpha Arbutin 2%",
+      "marca": "The Ordinary",
+      "tamaño": "30ml",
+      "precio": 65000,
+      "img": "../images/TOACIDOASCORBICOYALPHAARBUTIN.png",
+      "descripcion": "La vitamina C ilumina el tono de la piel y reduce los signos del envejecimiento y el alpha Arbutin reduce el aspecto de las manchas oscuras ."
+    },
+    {
+      "id": 3,
+      "nombreProd": "Acido Azelaico 10%",
+      "marca": "The Ordinary",
+      "tamaño": "30ml",
+      "precio": 56000,
+      "img": "../images/TOACIDOAZELAICO.png",
+      "descripcion": "Actúa como antioxidante, trabaja para aclarar la piel, reducir el enrojecimiento y las manchas oscuras, y combatir el acné y la rosácea."
+    },
+    {
+      "id": 4,
+      "nombreProd": "Ácido Hialurónico 2% + B5",
+      "marca": "The Ordinary",
+      "tamaño": "30ml",
+      "precio": 50000,
+      "img": "../images/TOACIDOHIALURONICO.png",
+      "descripcion": "Proporcionar máxima hidratación en todas las capas de la piel, revitalizándola, mejorando la elasticidad y con un efecto real de relleno."
+    },
+    {
+      "id": 5,
+      "nombreProd": "Acido Mandelico 10% + HA ",
+      "precio": 51000,
+      "marca": "The Ordinary",
+      "tamaño": "30ml",
+      "img": "../images/TOACIDOMANDELICO.png",
+      "descripcion": "Es una fórmula de exfoliación muy suave, por lo tanto ideal si tu piel es delicada y sensible."
+    },
+    {
+      "id": 6,
+      "nombreProd": "Caffeine Solution 5% + EGCG",
+      "marca": "The Ordinary",
+      "tamaño": "30ml",
+      "precio": 52000,
+      "img": "../images/TOCAFFEINESOLUTION.png",
+      "descripcion": "Reduce la apariencia de la pigmentación del contorno de los ojos y la hinchazón."
+    },
+    {
+      "id": 7,
+      "nombreProd": "Crema:Factores Naturales De Hidratación + HA",
+      "marca": "The Ordinary",
+      "tamaño": "100ml",
+      "precio": 56000,
+      "img": "../images/TOCREMAFACTORESNATURALES.png",
+      "descripcion": "Lograr una piel protegida y profundamente hidratada a nivel de la superficie con esta fórmula de factores naturales hidratantes."
+    },
+    {
+      "id": 8,
+      "nombreProd": "Mascarilla de ácido salicílico",
+      "marca": "The Ordinary",
+      "tamaño": "50ml",
+      "precio": 75000,
+      "img": "../images/TOMASCARILLASA.png",
+      "descripcion": "Esta mascarilla al 2% ayuda a exfoliar las paredes internas de los poros para combatir la aparición de manchas y para una mejor claridad de la piel."
+    },
+    {
+      "id": 9,
+      "nombreProd": "Niacinamida en polvo al 100%",
+      "marca": "The Ordinary",
+      "tamaño": "20gr",
+      "precio": 45000,
+      "img": "../images/TONIACINAMIDAPOLVO.png",
+      "descripcion": "Polvo de niacinamida 100% ofrece la exposición tópica más directa de niacinamida para lograr una piel luminosa y disminuir la apariencia de poros."
+    },
+    {
+      "id": 10,
+      "nombreProd": "Peeling Solution-AHA 30% + BHA 2% ",
+      "marca": "The Ordinary",
+      "tamaño": "30ml",
+      "precio": 50000,
+      "img": "../images/TOPEELINGSOLUTION.png",
+      "descripcion": "Ofrece una exfoliación más profunda para ayudar a combatir los signos de congestión de los poros y mejorar la luminosidad y textura de la piel."
+    },
+    {
+      "id": 11,
+      "nombreProd": "Resveratrol 3% + Ácido Ferúlico 3% ",
+      "marca": "The Ordinary",
+      "tamaño": "30ml",
+      "precio": 56000,
+      "img": "../images/TORESVERATROL-ACIDOFERULICO.png",
+      "descripcion": "Es un sérum antioxidante natural formulado con dos de los antioxidantes más potentes del mercado, para proteger tu piel de los radicales libres."
+    },
+    {
+      "id": 12,
+      "nombreProd": "Vitamina C En Suspensión 23 % + Esferas De HA 2 %",
+      "marca": "The Ordinary",
+      "tamaño": "30ml",
+      "precio": 43000,
+      "img": "../images/TOVITAMINAC23.png",
+      "descripcion": "La vitamina C es un antioxidante efectivo que combate multiples signos de envejecimiento, aporta brillo y regula el tono desigual de la piel."
+    },
+    {
+      "id": 13,
+      "nombreProd": "Limpiador facial espumoso: piel normal a grasa",
+      "marca": "Cerave",
+      "tamaño": "355ml",
+      "precio": 67000,
+      "img": "../images/cERAVELIMPIADORESPUMOSO12.png",
+      "descripcion": "Limpia profundamente y refresca la piel mientras remueve el exceso de grasa y maquillaje, ayudando a restaurar la barrera natural de la piel."
+    },
+    {
+      "id": 14,
+      "nombreProd": "Limpiador facial espumoso: piel normal a grasa",
+      "marca": "Cerave",
+      "tamaño": "473ml",
+      "precio": 79000,
+      "img": "../images/CERAVELIMPIADORESPUMOSO16.png",
+      "descripcion": "Limpia profundamente y refresca la piel mientras remueve el exceso de grasa y maquillaje, ayudando a restaurar la barrera natural de la piel."
+    },
+    {
+      "id": 15,
+      "nombreProd": "Limpiador facial hidratante piel normal a seca",
+      "marca": "Cerave",
+      "tamaño": "473ml",
+      "precio": 79000,
+      "img": "../images/CERAVELIMPIADORHIDRATANTE12.png",
+      "descripcion": "El limpiador facial hidratante CeraVe es una fórmula única que limpia, hidrata y ayuda a restaurar la barrera protectora de la piel con tres ceramidas"
+    },
+    {
+      "id": 16,
+      "nombreProd": "Limpiador facial con ácido salicílico",
+      "marca": "Cerave",
+      "tamaño": "237ml",
+      "precio": 67000,
+      "img": "../images/CERAVELIMPIADORSA8.png",
+      "descripcion": "Este gel limpiador en espuma de textura refrescante elimina la suciedad, la grasa y exfolia la piel.El limpiador facial hidratante CeraVe es una fórmula única que limpia, hidrata y ayuda a restaurar la barrera protectora de la piel con tres ceramidas"
+    },
+    {
+      "id": 17,
+      "nombreProd": "Retinol 1%",
+      "marca": "The Inkey List",
+      "tamaño": "30ml",
+      "precio": 62000,
+      "img": "../images/INKEYRETINOL.png",
+      "descripcion": "Potente retinol que se libera lentamente para ayudar a promover un cutis más suave y radiante, con menos irritación."
+    },
+    {
+      "id": 18,
+      "nombreProd": "Bálsamo limpiador de Avena",
+      "marca": "The Inkey List",
+      "tamaño": "50ml",
+      "precio": 41000,
+      "img": "../images/INKEYOATCLEANSING.png",
+      "descripcion": "Bálsamo limpiador que disuelve suavemente el maquillaje y el exceso de grasa sin quitar de la piel sensible e irritada la humedad."
+    },
+    {
+      "id": 19,
+      "nombreProd": "Crema hidratante Vitamina B, C y E ",
+      "marca": "The Inkey List",
+      "tamaño": "50ml",
+      "precio": 43000,
+      "img": "../images/INKEYCREMVITAMINABCE.png",
+      "descripcion": "Es humectante diario ligero proporciona todas las vitaminas esenciales para una piel de aspecto saludable, incluida la aclaradora B3 (niacinamida)."
+    },
+    {
+      "id": 20,
+      "nombreProd": "Suero Facial Super Peptidos",
+      "marca": "Good Molecules",
+      "tamaño": "30ml",
+      "precio": 70000,
+      "img": "../images/GMSUPERPEPTIDO.png",
+      "descripcion": "Ayuda a combatir los signos de envejecimiento como lo son las líneas finas, la deshidratación y la perdida de firmeza."
+    },
+    {
+      "id": 21,
+      "nombreProd": "Tónico iluminador de Niacinamida",
+      "marca": "Good Molecules",
+      "tamaño": "120ml",
+      "precio": 75000,
+      "img": "../images/GMTONICONIACINAMIDA4.png",
+      "descripcion": "Deja la piel radiante, uniforme y con poros menos visibles."
+    }
+  ],
+  "UsuariosRegistrados": [
+    {
+      "nombreUser": "Andrea",
+      "apellidoUser": "Villanueva",
+      "emailUser": "andrea@gmail.com",
+      "contraseñaUser": "12345678",
+      "id": 1
+    },
+    {
+      "nombreUser": "camila",
+      "apellidoUser": "fernandez",
+      "emailUser": "camila@gmail.com",
+      "contraseñaUser": "12345678",
+      "id": 2
+    },
+    {
+      "nombreUser": "felipe",
+      "apellidoUser": "sandoval",
+      "emailUser": "felipe@gmail.com",
+      "contraseñaUser": "14589",
+      "id": 3
+    },
+    {
+      "nombreUser": "ashasa",
+      "apellidoUser": "jadadh",
+      "emailUser": "asahs@gmail.com",
+      "contraseñaUser": "12243545",
+      "id": 4
+    },
+    {
+      "nombreUser": "dfdshfhf",
+      "apellidoUser": "sajsakljfsjfhj",
+      "emailUser": "dkfkfhklahs@gmail.com",
+      "contraseñaUser": "3489363095",
+      "id": 5
+    },
+    {
+      "nombreUser": "dkjsdksd",
+      "apellidoUser": "dhkslhlKAHF",
+      "emailUser": "HSD@gmail.com",
+      "contraseñaUser": "3455903",
+      "id": 6
+    },
+    {
+      "nombreUser": "juan",
+      "apellidoUser": "urbano",
+      "emailUser": "juan@gmail.com",
+      "contraseñaUser": "3114499005",
+      "id": 7
+    },
+    {
+      "nombreUser": "anne",
+      "apellidoUser": "villa",
+      "emailUser": "anne@gmail.com",
+      "contraseñaUser": "3245678",
+      "id": 8
+    }
+  ]
+}

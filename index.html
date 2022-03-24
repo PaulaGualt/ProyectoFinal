@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/inicio.css" />
+  <script src="https://kit.fontawesome.com/d0e8ec7026.js" crossorigin="anonymous"></script>
+  <title>Inicio</title>
+
+
+</head>
+
+<body>
+  <header class="encabezado">
+    <img class="logo" src="./images/LogoPavetta.png" alt="" />
+    <div class="menuPrincipal">
+      <ul class="menuCentral">
+        <li class="itemMenuCentral"><a href="./index.html">Inicio</a></li>
+        <li class="itemMenuCentral"><a href="#">Lo nuevo</a></li>
+        <li class="itemMenuCentral"><a href="#">Marcas</a>
+          <ul class="itemsDesplebalble">
+            <li><a href="./pages/theordinary.html">The Ordinary</a></li>
+            <li><a href="./pages/cerave.html">Cerave</a></li>
+            <li><a href="./pages/inkeylist.html">The Inkey List</a></li>
+          </ul>
+        </li>
+        <li class="itemMenuCentral"><a href="#">Quiénes somos?</a></li>
+      </ul>
+    </div>
+    <div class="barraBuscadora">
+      <form>
+        <input type="search" placeholder="Buscar" />
+        <button class="iconoBuscar" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </form>
+
+    </div>
+    </div>
+    <div class="menuIcono">
+      <a href="#" id="btnUsuario"><i class="fa-solid fa-user"></i></a>
+      <a href="#"><i class="fa-solid fa-heart"></i></a>
+      <a href="#" id="nameUser"><i class="fa-solid fa-cart-shopping"></i></a>
+      </ul>
+    </div>
+  </header>
+  <!-- Contenido Principal -->
+  <main class="contenidoPrincipal">
+    <div class="conttitulo1">
+      <h1 class="titulo1">Lo más vendido</h1>
+    </div>
+    <div class="prduct1">
+      <img src="./images/CERAVELIMPIADORESPUMOSO12.png" alt="" srcset="">
+    </div>
+    <div class="prduct2">
+      <img src="./images/INKEYCREMVITAMINABCE.png" alt="">
+    </div>
+    <div class="prduct3">
+      <img src="./images/CERAVELIMPIADORSA8.png" alt="">
+    </div>
+
+<!-- Modal Inicio de sesión -->
+    <section class="modalLogin">
+      <div class="contenedorModalLogin">
+        <a href="#" id="modalRegresar"><i class="fa-solid fa-arrow-left"></i></a>
+        <h2 class="modalTitulo">Inicia sesión en Pavetta</h2>
+        <div class="formularioModal">
+          <form id="formularioLogin">
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="Ingresa el email" required>
+            <label for="contraseña"></label>
+            <input type="password" name="contraseña" id="contraseña" placeholder="password" required><br>
+            <button class="btnsLogin" type="submit"> Iniciar sesión</button>
+          </form>
+        </div>
+        <br>
+        <hr>
+        <div class="contendorNuevoUsuraio">
+          <h2>¿Eres Nuevo en Pavetta?</h2>
+          <button id= "btnCrearCuenta" class="btnsLogin">Crea una cuenta</button>
+        </div>
+      </div>
+    </section>
+<!-- modal Registro -->
+    <section class="modalRegistro">
+      <div class="contenedorModalRegistro">
+        <a href="#" id="modalRegistroCerrar"><i class="fa-solid fa-xmark"></i></i></a>
+        <h2 class="modalTitulo">Registrate en Pavetta</h2>
+        <div class="formularioModalRegistro">
+          <form id="formularioRegistro">
+            <label for="nombreNuevoUsuario"></label>
+            <input type="text" name="nombreNuevoUsuario" id="nombreNuevoUsuario" placeholder="Ingresa tu nombre" required>
+            <label for="apellidoNuevoUsuario"></label>
+            <input type="text" name="apellidoNuevoUsuario" id="apellidoNuevoUsuario" placeholder="Ingresa tu apellido" required>
+            <label for="emailNuevoUsuario"></label>
+            <input type="email" name="emailNuevoUsuario" id="emailNuevoUsuario" placeholder="Ingresa el email" required>
+            <label for="contraseñaNuevoUsuario"></label>
+            <input type="password" name="contraseñaNuevoUsuario" id="contraseñaNuevoUsuario" placeholder="password" required><br>
+            <hr>
+            <button class="btnsRegistro" type="submit">Registrar</button>
+          </form>
+
+        </div>
+
+      </div>
+    </section>
+
+
+  </main>
+
+
+<!-- Pie de página -->
+  <footer class="piePagina">
+    <div class="contSiguenos">
+      <ul>
+        <li>Siguenos</li>
+        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href=""><i class="fa-brands fa-facebook-square"></i></a></li>
+      </ul>
+
+    </div>
+    <div class="contPolitica">
+      <h1>Política de Privacidad</h1>
+
+    </div>
+    <div class="contContacto">
+      <ul>
+        <li>Contáctanos</li>
+        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+        <li><a href="#"><i class="fa-solid fa-envelope"></i></i></a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+<script src="./modulos/login.js" type="module"></script>
+<script src="./modulos/registro.js" type="module"></script>
+<script src="./scripts/funcionalidadregistro.js"></script>
+<script src="./scripts/funcionaLogin.js"></script>
+
+</html>

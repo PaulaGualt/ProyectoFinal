@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    background-color: white;
+    padding: 250px 20px 0px;
+    font-family: 'Pontano Sans', sans-serif;
+}
+.encabezado{
+    display: grid;
+    grid-column: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    background-color: #d89f82;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left:0 ;
+    
+}
+.logo{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    width: 200px;
+    align-self: center;
+  justify-self: center;
+    
+}
+
+.barraBuscadora{
+    grid-column: 2/5;
+    grid-row: 1/2 ;
+}
+.menuPrincipal{
+    grid-column: 2/5;
+    grid-row: 3/4;
+    justify-content: space-around;
+    
+    
+    
+}
+/* Barra Buscadora */
+.barraBuscadora{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+   
+}
+.barraBuscadora .iconoBuscar{
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    height: 40px;
+    width: 30px;
+    color: #d89f82;
+}
+
+input{
+    height: 40px;
+    width: 300px;
+    border: none;
+    border-radius: 50px;
+    padding: 0px 10px;
+    margin-bottom: 10%;
+    font-size: 23px;
+}
+.menuIcono{
+    grid-column: 5/7;
+    grid-row: 2/3;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuIcono a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    width: 25%;
+    text-align: center;
+    padding: 8px 0;
+    transition: all .5s ease-in-out;
+}
+.menuIcono a:hover{
+    background-color:white;
+    color: #d89f82;
+    border-radius: 15px;
+
+}
+.menuCentral{
+    display: flex;
+    list-style: none;
+    background-color: white;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    
+     
+   
+}
+.menuCentral li a{
+    color: white;
+    text-decoration: none;
+    list-style:none ;
+    color: #d89f82;
+    font-size: 25px;
+
+}
+.itemMenuCentral{
+    font-size: 25px;
+    margin: 1px 15px;
+    width: max-content;
+    
+}
+.itemsDesplebalble{
+    position: absolute;
+    display: none;
+    list-style: none;
+    background-color: rgba(187, 192, 192,.5);
+}
+.menuCentral li:hover .itemsDesplebalble{
+    display: block;
+    
+}
+.menuCentral li:hover {
+    background-color: #d89f82;
+    color: white;
+    border-radius: 5px;
+}
+.menuCentral li a:hover {
+    color: white;
+}
+
+/* <div class="contenedorFicha">
+<section class="fichaSecccion">
+
+  <div class="fichaEncabezado">
+    <a href="#"><img src="${img}" alt=""></a></div>
+    <div class="cuerpoFicha">
+      <h4 class="nombreProducto">${nombreProd}</h4>
+      <h4 class="precioProducto"> $ ${precio}</h4>
+    </div>
+    <div class="pieFicha">
+      <a href="#"><i class="fa-solid fa-heart"></i></a>
+      <button id=${id} class="agregar">Agregar</button>
+    </div>
+</section> */
+
+/* contenedor  main */
+#contProductMarTO{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    font-family: 'Pontano Sans', sans-serif;
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr  ;
+}
+/* Fichas productos */
+.contenedorFicha{
+    padding-left: 2rem;
+    padding: 1.75rem;
+  
+}
+.fichaseccion{
+    display: grid;
+    gap: 2 rem;
+
+}
+.ficha{
+    border: 1px solid #d89f82;
+    background-color: white;
+    padding: 1.75rem;
+    border-radius: 1.75rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ficha .fichaEncabezado{
+    flex-basis: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+.ficha .fichaEncabezado img{
+    width: 300px;
+}
+.ficha .cuerpoFicha{
+    flex-basis: 100%;
+    margin-top: 1.7rem;
+}
+.ficha .cuerpoFicha h4{
+    margin: 0;
+    text-align: center;
+}
+.pieFicha{
+    display: inline-block;
+    margin: auto;
+    
+}
+.ficha .pieFicha a{
+    color: #d89f82;
+    font-size: 30px;
+    margin-right: 3rem;
+    
+}
+.ficha .pieFicha a:hover{
+    background-color: #d89f82;
+    color: white;
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+.ficha .pieFicha button{
+    background-color: #d89f82;
+    color: black;
+    border: none;
+    padding: 0.7rem 1.75rem;
+    border-radius: 1.75rem;
+    margin-top: 1.2rem;
+    margin-left: 4rem;
+    
+    
+}
+.ficha .pieFicha button:hover{
+    background-color: white;
+    border: 1px solid #d89f82;
+    color:#d89f82;
+}
